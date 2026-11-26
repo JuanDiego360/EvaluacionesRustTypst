@@ -1,0 +1,25 @@
+# Rust build artifacts
+target/
+**/target/
+**/*.rs.bk
+
+# Compiled binaries
+generarEvaluacionTeoSenoCoseno
+**/generarEvaluacionTeoSenoCoseno
+*.exe
+
+# Generated files
+salida/*.pdf
+salida/*.json
+**/salida/*.pdf
+**/salida/*.json
+!salida/.gitkeep
+!**/salida/.gitkeep
+
+# OS and IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*~
